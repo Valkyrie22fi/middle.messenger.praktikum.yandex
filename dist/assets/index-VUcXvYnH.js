@@ -79,7 +79,7 @@ Expecting `+L.join(", ")+", got '"+(this.terminals_[b]||b)+"'":F="Parse error on
     </div>
     <div class="chat-header__content">
         <div class="chat-header__title">{{ title }}</div>
-        {{> ButtonIcon type="primary" class="button__circle" src="@/assets/menu.svg" page="profile"}}
+        {{> ButtonIcon type="primary" class="button__circle" src="menu.svg" page="profile"}}
     </div>
 </div>
 `,Bn="/assets/ac1-d1llHKtK.png",Rn="/assets/ac2-lgD4i0Dy.png",M="/assets/ac3-tY-cJfJw.png",Dn="/assets/ac4-OTEly-qJ.png",Hn=`<div class="chat__list">
