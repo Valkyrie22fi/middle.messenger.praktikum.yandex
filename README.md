@@ -13,7 +13,7 @@ https://github.com/Valkyrie22fi/middle.messenger.praktikum.yandex/pull/4
 ## Netlify
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c8404268-4e5d-41dc-98da-15c46505e022/deploy-status)](https://app.netlify.com/sites/lighthearted-tapioca-2df1cf/deploys)
 
-
+https://app.netlify.com/sites/lighthearted-tapioca-2df1cf/deploys
 
 
 ### Ветка, в которой делаете задания спринта, должна называться sprint_i, где i - номер спринта. Не переименовывайте её.
