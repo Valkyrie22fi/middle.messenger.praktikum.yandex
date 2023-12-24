@@ -167,12 +167,12 @@ Expecting `+L.join(", ")+", got '"+(this.terminals_[b]||b)+"'":F="Parse error on
 </div>
 `,zn=`<div class="profile">
     <div class="profile__buttons">
-        {{> ButtonIcon type="primary" src="src/assets/arrow.svg" class="button__circle button_grey" page="chat"}}
+        {{> ButtonIcon type="primary" src="arrow.svg" class="button__circle button_grey" page="chat"}}
     </div>
     <div class="profile__content">
         <div class="profile__block">
             <div class="profile__photo photo">
-                <img src="src/assets/acMain.png" height="100px" width="100px" alt="Картинка"/>
+                <img src="acMain.png" height="100px" width="100px" alt="Картинка"/>
             </div>
             {{#> Form}}
                 {{> Input label="Почта" value="test@ya.ru" type="mail" disabled="disabled" name="email"}}
@@ -189,15 +189,15 @@ Expecting `+L.join(", ")+", got '"+(this.terminals_[b]||b)+"'":F="Parse error on
     </div>
 </div>`,Zn=`<div class="profile">
     <div class="profile__buttons">
-        {{> ButtonIcon type="primary" src="src/assets/arrow.svg" class="button__circle button_grey" page="chat"}}
+        {{> ButtonIcon type="primary" src="arrow.svg" class="button__circle button_grey" page="chat"}}
     </div>
     <div class="profile__content">
         <div class="profile__block">
             <div class="profile__photo photo">
-                <img src="src/assets/acMain.png" height="100px" width="100px" alt="Картинка"/>
+                <img src="acMain.png" height="100px" width="100px" alt="Картинка"/>
                 <input type="file" name="avatar" class="photo__input">
                 <div class="photo__edit">
-                    <img src="src/assets/edit.svg" height="30px" width="30px" alt="Картинка"/>
+                    <img src="edit.svg" height="30px" width="30px" alt="Картинка"/>
                 </div>
             </div>
             {{#> Form}}
@@ -213,12 +213,12 @@ Expecting `+L.join(", ")+", got '"+(this.terminals_[b]||b)+"'":F="Parse error on
     </div>
 </div>`,Qn=`<div class="profile">
     <div class="profile__buttons">
-        {{> ButtonIcon type="primary" src="src/assets/arrow.svg" class="button__circle button_grey" page="chat"}}
+        {{> ButtonIcon type="primary" src="arrow.svg" class="button__circle button_grey" page="chat"}}
     </div>
     <div class="profile__content">
         <div class="profile__block">
             <div class="profile__photo photo">
-                <img src="src/assets/acMain.png" height="100px" width="100px" alt="Картинка"/>
+                <img src="acMain.png" height="100px" width="100px" alt="Картинка"/>
             </div>
             {{#> Form}}
                 {{> Input label="Старый пароль" value="qwerty" type="password" name="oldPassword"}}
