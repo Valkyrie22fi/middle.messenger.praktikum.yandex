@@ -1,1 +1,1 @@
-export { default as ContentFull } from './contentFull.hbs?raw';
+export { default as ContentFull } from "./contentFull.hbs?raw";
