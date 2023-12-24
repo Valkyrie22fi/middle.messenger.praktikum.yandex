@@ -1,3 +1,5 @@
+https://lighthearted-tapioca-2df1cf.netlify.app/
+
 ## Описание
 Удобный чат для общения
 
@@ -15,10 +17,6 @@ https://github.com/Valkyrie22fi/middle.messenger.praktikum.yandex/pull/4
 
 ## Netlify.app
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c8404268-4e5d-41dc-98da-15c46505e022/deploy-status)](https://app.netlify.com/sites/lighthearted-tapioca-2df1cf/deploys)
-
-https://lighthearted-tapioca-2df1cf.netlify.app
-https://lighthearted-tapioca-2df1cf.netlify.app/
-lighthearted-tapioca-2df1cf.netlify.app
 
 ## Страницы
 ссылки на все страницы в правои нижнем углу
