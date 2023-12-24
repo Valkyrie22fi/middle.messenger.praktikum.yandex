@@ -10,6 +10,9 @@ https://github.com/Valkyrie22fi/middle.messenger.praktikum.yandex/pull/4
 - `npm run start` - сборка и запуск проекта,
 - `npm run build` — сборка стабильной версии.
 
+## Netlify
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c8404268-4e5d-41dc-98da-15c46505e022/deploy-status)](https://app.netlify.com/sites/lighthearted-tapioca-2df1cf/deploys)
+
 
 
 
