@@ -41,7 +41,7 @@ Expecting `+L.join(", ")+", got '"+(this.terminals_[b]||b)+"'":F="Parse error on
 </div>`,In=`<div class="chat__content-null">
   <p>Выберите чат чтобы отправить сообщение</p>
 </div>`,An=`<div class="chat-tab">
-  {{> ChatHeader photo="src/assets/ac3.png" title="Ангелина" class="chat-tab__header"}}
+  {{> ChatHeader photo="@/assets/ac3.png" title="Ангелина" class="chat-tab__header"}}
   <div class="chat-tab__content">
     <div class="chat-tab__date">22 декабря</div>
     <div class="message message__incoming">
@@ -49,11 +49,11 @@ Expecting `+L.join(", ")+", got '"+(this.terminals_[b]||b)+"'":F="Parse error on
         <p>Какое-то входящее сообщение</p>
         <p>Какое-то входящее сообщение</p>
       </div>
-      <img src="src/assets/photo.jpg" alt="Картинка">
+      <img src="@/assets/photo.jpg" alt="Картинка">
       <div class="message__time">11:58</div>
     </div>
     <div class="message message__incoming">
-      <img src="src/assets/photo.jpg" alt="Картинка">
+      <img src="@/assets/photo.jpg" alt="Картинка">
       <div class="message__time">11:58</div>
     </div>
     <div class="message message__outgoing">
@@ -64,13 +64,13 @@ Expecting `+L.join(", ")+", got '"+(this.terminals_[b]||b)+"'":F="Parse error on
     </div>
   </div>
   <div class="chat-tab__footer">
-    {{> ButtonIcon type="primary" src="src/assets/clip.svg" class="button__circle button_clip"}}
+    {{> ButtonIcon type="primary" src="@/assets/clip.svg" class="button__circle button_clip"}}
     <input
         class="chat-tab__input"
         placeholder="Сообщение"
         name="message"
     />
-    {{> ButtonIcon type="primary" src="src/assets/arrow.svg" class="button__circle button_grey"}}
+    {{> ButtonIcon type="primary" src="@/assets/arrow.svg" class="button__circle button_grey"}}
   </div>
 </div>`,Nn=`
 <div class="chat-header {{class}}">
@@ -79,11 +79,11 @@ Expecting `+L.join(", ")+", got '"+(this.terminals_[b]||b)+"'":F="Parse error on
     </div>
     <div class="chat-header__content">
         <div class="chat-header__title">{{ title }}</div>
-        {{> ButtonIcon type="primary" class="button__circle" src="../../assets/menu.svg" page="profile"}}
+        {{> ButtonIcon type="primary" class="button__circle" src="@/assets/menu.svg" page="profile"}}
     </div>
 </div>
 `,Bn="/assets/ac1-d1llHKtK.png",Rn="/assets/ac2-lgD4i0Dy.png",M="/assets/ac3-tY-cJfJw.png",Dn="/assets/ac4-OTEly-qJ.png",Hn=`<div class="chat__list">
-    {{> ChatHeader photo="src/assets/acMain.png" title="Профиль" page="profile"}}
+    {{> ChatHeader photo="@/assets/acMain.png" title="Профиль" page="profile"}}
     {{> ChatSearch }}
      <ul class="chat__blocks">
         {{#each (blocks)}}
@@ -106,7 +106,7 @@ Expecting `+L.join(", ")+", got '"+(this.terminals_[b]||b)+"'":F="Parse error on
 <div class="search">
     <div class="search__content">
         <div class="search__title">Контакты</div>
-        {{> ButtonIcon type="icon" src="src/assets/pluse.svg" class="search__button" height="24px" width="24px"}}
+        {{> ButtonIcon type="icon" src="pluse.svg" class="search__button" height="24px" width="24px"}}
     </div>
     <input
         class="search__input"
