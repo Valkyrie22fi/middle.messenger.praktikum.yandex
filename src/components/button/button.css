@@ -1,0 +1,22 @@
+.button {
+  width: 100%;
+}
+
+.button__primary {
+  background-color: var(--button);
+  border-radius: 4px;
+  color: var(--third);
+  font-size: 16px;
+  line-height: 50px;
+}
+
+.button__link {
+  background-color: inherit;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.button__link:hover {
+  color: var(--link);
+}

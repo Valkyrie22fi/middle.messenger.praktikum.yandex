@@ -1,0 +1,23 @@
+.container {
+  background-color: var(--bg);
+  border-radius: 6px;
+  box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
+  box-sizing: border-box;
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  width: 386px;
+}
+.errors {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+.errors .button {
+  text-align: right;
+}
+.errors ul {
+  list-style: none;
+}

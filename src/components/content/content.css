@@ -1,0 +1,5 @@
+.chat__content {
+  background-color: var(--grey);
+  display: flex;
+  flex: 1 0 auto;
+}

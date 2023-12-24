@@ -1,0 +1,7 @@
+.chat__content-null {
+  align-items: center;
+  color: var(--text-second);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

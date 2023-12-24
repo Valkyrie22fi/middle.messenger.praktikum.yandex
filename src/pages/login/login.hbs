@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Вход</h1>
+    {{#> Form}}
+        {{> Input label="Логин" type="text" name="login"}}
+        {{> Input label="Пароль" type="password" name="password"}}
+        {{> Button label="Вход" type="primary" page="chat"}}
+        {{> Button label="Регистрация" type="link" page="register"}}
+    {{/Form}}
+</div>
+<nav class="errors">
+    <ul>
+        <li>{{> Button label="Чат" type="link" page="chat"}}</li>
+        <li>{{> Button label="Пустой чат" type="link" page="chatNull"}}</li>
+        <li>{{> Button label="404 ошибка" type="link" page="error404"}}</li>
+        <li>{{> Button label="500 ошибка" type="link" page="error500"}}</li>
+        <li>{{> Button label="Профайл" type="link" page="profile"}}</li>
+        <li>{{> Button label="Профайл редактирование" type="link" page="profileEdit"}}</li>
+        <li>{{> Button label="Профайл редактирование пароля" type="link" page="profileEditPassword"}}</li>
+        <li>{{> Button label="Регистрация" type="link" page="register"}}</li>
+    </ul>
+</nav>
