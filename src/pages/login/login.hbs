@@ -1,4 +1,4 @@
-<div class="container">
+<main class="container">
     <h1>Вход</h1>
     {{#> Form}}
         {{> Input label="Логин" type="text" name="login"}}
@@ -6,7 +6,7 @@
         {{> Button label="Вход" type="primary" page="chat"}}
         {{> Button label="Регистрация" type="link" page="register"}}
     {{/Form}}
-</div>
+</main>
 <nav class="errors">
     <ul>
         <li>{{> Button label="Чат" type="link" page="chat"}}</li>
