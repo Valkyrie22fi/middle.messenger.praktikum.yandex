@@ -1,1 +1,1 @@
-export { default as ChatListBlock } from "./chatListBlock.hbs?raw";
+export { default as ChatListBlock } from './chatListBlock.hbs?raw'

@@ -1,1 +1,1 @@
-export { default as ContentNull } from './contentNull.hbs?raw';
+export { default as ContentNull } from './contentNull.hbs?raw'

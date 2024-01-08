@@ -5,6 +5,8 @@
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
+    "types": ["@types/node"],
+    "allowJs": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -23,6 +25,12 @@
     "strictNullChecks": true,
   },
   "include": [
-    "index.d.ts"
+    "index.d.ts",
+    "src/**/*.ts",
+    "tools/**/*.mts",
+    ".eslintrc.json",
+    "jest.config.base.js",
+    "jest.config.js",
+    "jest.preset.js"
   ],
 }
