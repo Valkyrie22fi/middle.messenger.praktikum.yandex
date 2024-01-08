@@ -3,9 +3,11 @@
   padding: 16px 10px 16px 40px;
   gap: 16px;
 }
+
 .block_active {
   background-color: rgba(0, 123, 173, 5%);
 }
+
 .block__image {
   background-position: center;
   background-repeat: no-repeat;
@@ -13,32 +15,38 @@
   height: 48px;
   flex: 0 0 48px;
 }
+
 .block__content {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
+
 .block__title {
   font-size: 14px;
   font-weight: 600;
   line-height: 16px;
   margin-bottom: 10px;
 }
+
 .block__text {
   color: var(--text-second);
   font-size: 12px;
   margin: 0;
 }
+
 .block__info {
   align-items: center;
   display: flex;
   flex-direction: column;
 }
+
 .block__time {
   color: var(--text-second);
   font-size: 12px;
   margin-bottom: 5px;
 }
+
 .block__count {
   background-color: var(--button);
   border-radius: 50%;

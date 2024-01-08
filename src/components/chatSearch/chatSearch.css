@@ -3,15 +3,18 @@
   flex-direction: column;
   padding: 0 20px 0 40px;
 }
+
 .search__content {
   align-items: center;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
+
 .search__button {
   flex: 0 0 24px;
 }
+
 .search__input {
   background-color: var(--grey);
   border: none;
@@ -22,6 +25,7 @@
   text-overflow: ellipsis;
   text-wrap: nowrap;
 }
+
 .search__input:focus {
   background-color: var(--button-hover);
   outline: none;

@@ -9,11 +9,12 @@
   left: 0;
   right: 0;
   top: 0;
-
 }
+
 .profile__photo:hover .photo__edit {
   display: flex;
 }
+
 .photo__input {
   display: none;
 }

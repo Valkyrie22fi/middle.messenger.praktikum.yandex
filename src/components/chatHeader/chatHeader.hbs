@@ -1,10 +1,9 @@
-
-<div class="chat-header {{class}}">
-    <div class="chat-header__image">
-        <img src="{{photo}}" height="48px" width="48px" alt="Фото"/>
-    </div>
-    <div class="chat-header__content">
-        <div class="chat-header__title">{{ title }}</div>
-        {{> ButtonIcon type="primary" class="button__circle" src="src/assets/menu.svg" page="profile"}}
-    </div>
+<div class="chat-header {{ class }}">
+  <div class="chat-header__image">
+    <img src="{{ photo }}" height="48px" width="48px" alt="{{ alt }}" />
+  </div>
+  <div class="chat-header__content">
+    <div class="chat-header__title">{{ title }}</div>
+    {{> ButtonIcon type="primary" class="button__circle" src="src/assets/menu.svg" page="profile"}}
+  </div>
 </div>

@@ -1,23 +1,23 @@
 <main class="profile">
-    <div class="profile__buttons">
-        {{> ButtonIcon type="primary" src="arrow.svg" class="button__circle button_grey" page="chat"}}
+  <div class="profile__buttons">
+    {{> ButtonIcon type="primary" src="arrow.svg" class="button__circle button_grey" page="chat"}}
+  </div>
+  <div class="profile__content">
+    <div class="profile__block">
+      <div class="profile__photo photo">
+        <img src="acMain.png" height="100px" width="100px" alt="Фото профиля" />
+      </div>
+      {{#> Form}}
+      {{> Input label="Почта" value="test@ya.ru" type="mail" disabled="disabled" name="email"}}
+      {{> Input label="Логин" value="test" type="text" disabled="disabled" name="login"}}
+      {{> Input label="Имя" value="Василиса" type="text" disabled="disabled" name="first_name"}}
+      {{> Input label="Фамилия" value="Премудрая" type="text" disabled="disabled" name="second_name"}}
+      {{> Input label="Имя в чате" value="Василиса" type="text" disabled="disabled" name="display_name"}}
+      {{> Input label="Телефон" value="+7-918-888-88-80" type="text" disabled="disabled" name="phone"}}
+      {{> Button label="Изменить данные" type="primary" page="profileEdit"}}
+      {{> Button label="Изменить пароль" type="primary" page="profileEditPassword"}}
+      {{> Button label="Выйти" type="primary" page="chat"}}
+      {{/Form}}
     </div>
-    <div class="profile__content">
-        <div class="profile__block">
-            <div class="profile__photo photo">
-                <img src="acMain.png" height="100px" width="100px" alt="Картинка"/>
-            </div>
-            {{#> Form}}
-                {{> Input label="Почта" value="test@ya.ru" type="mail" disabled="disabled" name="email"}}
-                {{> Input label="Логин" value="test" type="text" disabled="disabled" name="login"}}
-                {{> Input label="Имя" value="Василиса" type="text" disabled="disabled" name="first_name"}}
-                {{> Input label="Фамилия" value="Премудрая" type="text" disabled="disabled" name="second_name"}}
-                {{> Input label="Имя в чате" value="Василиса" type="text" disabled="disabled" name="display_name"}}
-                {{> Input label="Телефон" value="+7-918-888-88-80" type="text" disabled="disabled" name="phone"}}
-                {{> Button label="Изменить данные" type="primary" page="profileEdit"}}
-                {{> Button label="Изменить пароль" type="primary" page="profileEditPassword"}}
-                {{> Button label="Выйти" type="primary" page="chat"}}
-            {{/Form}}
-        </div>
-    </div>
+  </div>
 </main>
