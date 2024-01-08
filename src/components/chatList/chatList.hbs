@@ -1,0 +1,9 @@
+<div class="chat__list">
+    {{> ChatHeader photo="src/assets/acMain.png" title="Профиль" page="profile"}}
+    {{> ChatSearch }}
+     <ul class="chat__blocks">
+        {{#each (blocks)}}
+            {{> ChatListBlock }}
+        {{/each}}
+    </ul>
+</div>

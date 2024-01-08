@@ -1,0 +1,25 @@
+.chat__list {
+  border-right: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 375px;
+}
+.chat__blocks {
+  height: calc(100vh - 225px);
+  overflow-y: scroll;
+  padding-left: 0;
+}
+
+.chat__blocks::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat__blocks::-webkit-scrollbar-track {
+  background: var(--bg-second);
+}
+
+.chat__blocks::-webkit-scrollbar-thumb {
+  background-color: var(--bg-second);
+  border-radius: 6px;
+  border: 3px solid var(--grey);
+} 

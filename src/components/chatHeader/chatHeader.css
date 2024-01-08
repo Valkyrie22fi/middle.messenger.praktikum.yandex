@@ -1,0 +1,19 @@
+.chat-header {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 20px 40px;
+  width: 100%;
+}
+.chat-header__content {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.chat-header__content button {
+  background-color: inherit;
+}

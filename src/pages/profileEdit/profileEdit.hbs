@@ -1,0 +1,25 @@
+<main class="profile">
+    <div class="profile__buttons">
+        {{> ButtonIcon type="primary" src="arrow.svg" class="button__circle button_grey" page="chat"}}
+    </div>
+    <div class="profile__content">
+        <div class="profile__block">
+            <div class="profile__photo photo">
+                <img src="acMain.png" height="100px" width="100px" alt="Картинка"/>
+                <input type="file" name="avatar" class="photo__input">
+                <div class="photo__edit">
+                    <img src="edit.svg" height="30px" width="30px" alt="Картинка"/>
+                </div>
+            </div>
+            {{#> Form}}
+                {{> Input label="Почта" value="test@ya.ru" type="mail" name="email"}}
+                {{> Input label="Логин" value="test" type="text" name="login"}}
+                {{> Input label="Имя" value="Василиса" type="text" name="first_name"}}
+                {{> Input label="Фамилия" value="Премудрая" type="text" name="second_name"}}
+                {{> Input label="Имя в чате" value="Василиса" type="text" name="display_name"}}
+                {{> Input label="Телефон" value="+7-918-888-88-80" type="text" name="phone"}}
+                {{> Button label="Сохранить" type="primary" page="profile" name=""}}
+            {{/Form}}
+        </div>
+    </div>
+</main>

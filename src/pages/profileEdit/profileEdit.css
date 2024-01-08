@@ -1,0 +1,19 @@
+.photo__edit {
+  align-items: center;
+  background-color: var(--button-second);
+  border-radius: 16px;
+  display: none;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+
+}
+.profile__photo:hover .photo__edit {
+  display: flex;
+}
+.photo__input {
+  display: none;
+}
